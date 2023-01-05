@@ -42,16 +42,11 @@
 
 ## Modeling
 ### 다양한 모델을 사용한 뒤 최고 성능의 모델 1개 선정
-#### 1. XGBClassifier
-#### 2. LGBMClassifier
-#### 3. LogisticRegression
-#### 4. KNeighborsClassifier
-#### 5. RandomForestClassifier
-#### 6. AdaBoostClassifier
-#### 7. MLPClassifier
-#### 8. DecisionTreeClassifier
-#### 9. SVC
-#### 10. CatBoostClassifier
+#### 1. XGBClassifier -> score:  0.9607338744270699
+#### 2. LGBMClassifier -> score:  0.9524141678986593
+#### 3. RandomForestClassifier -> score:  0.9763633368225818
+#### 4. AdaBoostClassifier -> score:  0.8489945944983214
+#### 5. LogisticRegression -> score:  0.7819787369799392
+
 <span style="color.red"</span>
-#### 11. ExtraTreesClassifier
-<span style="color.red"</span>
+#### 6. ExtraTreesClassifier -> score:  0.9767722103620156
