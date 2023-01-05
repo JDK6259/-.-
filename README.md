@@ -50,8 +50,8 @@
 #### 6. ExtraTreesClassifier -> score:  0.9767722103620156
 
 ## Hpyer Parameter Tunning
-- 1. Default
-- 2. GridSearchCV
-- 3. RandomizedSearchCV
-- 4. BayesianOptimization
-- 4가지 방법 실행 후 가장 높은 private 성능을 달성한 기본 하이퍼 파라미터 사용
+#### 1. Default
+#### 2. GridSearchCV
+#### 3. RandomizedSearchCV
+#### 4. BayesianOptimization
+#### 4가지 방법 실행 후 가장 높은 private 성능을 달성한 기본 하이퍼 파라미터 사용
