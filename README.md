@@ -41,12 +41,17 @@
 #### SMOTE모델을 통한 Oversampling 진행
 
 ## Modeling
-### 다양한 모델을 사용한 뒤 최고 성능의 모델 1개 선정
+### 다양한 모델을 사용한 뒤 최고 성능의 모델 ExtraTree 선정
 #### 1. XGBClassifier -> score:  0.9607338744270699
 #### 2. LGBMClassifier -> score:  0.9524141678986593
 #### 3. RandomForestClassifier -> score:  0.9763633368225818
 #### 4. AdaBoostClassifier -> score:  0.8489945944983214
 #### 5. LogisticRegression -> score:  0.7819787369799392
-
-<span style="color.red"</span>
 #### 6. ExtraTreesClassifier -> score:  0.9767722103620156
+
+## Hpyer Parameter Tunning
+- 1. Default
+- 2. GridSearchCV
+- 3. RandomizedSearchCV
+- 4. BayesianOptimization
+- 4가지 방법 실행 후 가장 높은 private 성능을 달성한 기본 하이퍼 파라미터 사용
